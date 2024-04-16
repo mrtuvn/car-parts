@@ -1,0 +1,37 @@
+---
+import { Counter } from "@components/qwik/counter";
+import { SayHi } from "@components/qwik/say-hi";
+import Layout from "../layouts/Layout.astro";
+import data from '../../public/data/data.json';
+
+import CardProduct from '../components/products/cardProduct.tsx';
+---
+
+<Layout title="Home">
+        <Counter initial={5} />
+        <SayHi />
+        <div>
+            <h3>Product Lists</h3>
+            {data.products.map(product => 
+                <div class="col-md-6 col-lg-3" >
+                  <CardProduct 
+                    thumb_src = {product.thumb_src}
+                    thumb_alt = {product.thumb_alt}
+                    color = {product.color}
+                    colors = {product.colors}
+                    title = {product.title}
+                    description = {product.description}
+                    price = {product.price}
+                    position = "center"
+                  />
+                </div>
+              )}        
+        </div>
+        
+</Layout>
+<style is:global>
+    #html-body {
+        background: blue;
+        color: red;
+    }
+</style>
