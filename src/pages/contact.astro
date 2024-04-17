@@ -1,24 +1,38 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
 ---
+<style>
+    @keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width,viewport-fit=cover" />
-        <meta name="generator" content={Astro.generator} />
-        <title>Contact Us</title>
-    </head>
-    <body id="html-body">
-        <h1>contact us here</h1>
+.phone-contact {
+  display: inline-block;
+  text-decoration: underline;
+  animation: wiggle 2.5s infinite;
+}
 
-        <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/images/contact/mine2022.jpg" alt="" width="384" height="512">
+.phone-contact:hover {
+  animation: none;
+}
+</style>
+<Layout title="contact page">
+    <div class="bg-slate-100 dark:bg-slate-800 h-full flex-1 grid place-items-top">
+        
+        <div>
+        <h1 class="text-xl fw-600 text-center my-6">Contact Me</h1>
+
+        <figure class="md:flex rounded-xl p-8 md:p-0 gap-4">
+            <img class="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto my-5" 
+            src="/images/contact/mine2022.jpg" alt="" width="384" height="512" />
             <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>
                 <p class="text-lg font-medium">
-                  “Build - sell - consultant genius-parts from common brands: Huyndai, Kia”
+                  Business: “Build - sell - consultant genius-parts from common brands: Huyndai, Kia”
                 </p>
               </blockquote>
               <figcaption class="font-medium">
@@ -28,8 +42,22 @@
                 <div class="text-slate-700 dark:text-slate-500">
                   Owner - Founder
                 </div>
+
+                <div class="zalo">
+                    Zalo: 0936536599 Hotline
+                    <a href="tel:0936536599" class="phone-contact">Call me click here</a>
+                </div>
+
+                <div class="email">
+                    Email: <a href="mailto:tuna9x.it@gmail.com">tuna9x.it@gmail.com</a>
+                </div>
+
+                <div class="address">
+                    15 A17 Mai Dong, Hoang Mai, Hanoi
+                </div>
               </figcaption>
             </div>
           </figure>
-    </body>
-</html>
+          </div>
+    </div>
+</Layout>

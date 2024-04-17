@@ -42,11 +42,11 @@ export default function CardProduct({
 
             {colors && <ProductBadge colors={colors} />}
 
-            {price && (
+            {/* {price && (
               <h4 className="mb-0 text-lg mt-1 mb-3">
                 ${price.toLocaleString()}
               </h4>
-            )}
+            )} */}
 
             {!(description || colors || color) && (
               <a href="#" className="font-weight-normal text-body text-sm">
