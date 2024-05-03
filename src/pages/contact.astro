@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 ---
-<style>
+<!-- <style>
     @keyframes wiggle {
     0% { transform: rotate(0deg); }
    80% { transform: rotate(0deg); }
@@ -18,16 +18,16 @@ import Layout from "../layouts/Layout.astro";
 
 .phone-contact:hover {
   animation: none;
-}
+} -->
 </style>
 <Layout title="contact page">
-    <div class="bg-slate-100 dark:bg-slate-800 h-full flex-1 grid place-items-top">
+    <div class="bg-slate-100 dark:bg-slate-800 h-full flex-1 grid place-items-center">
         
-        <div>
-        <h1 class="text-xl fw-600 text-center my-6">Contact Me</h1>
+        <div class="max-w-[1024px] mx-auto">
+        <h1 class="text-[40px] fw-600 text-center mb-6">Contact Me</h1>
 
         <figure class="md:flex rounded-xl p-8 md:p-0 gap-4">
-            <img class="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto my-5" 
+            <img class="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto my-5 object-cover flex-1" 
             src="/images/contact/mine2022.jpg" alt="" width="384" height="512" />
             <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>

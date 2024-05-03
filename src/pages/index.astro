@@ -1,6 +1,8 @@
 ---
 import { Counter } from "@components/qwik/counter";
 import { SayHi } from "@components/qwik/say-hi";
+import Header from "../components/common/header";
+import Footer from "../components/common/footer";
 import Layout from "../layouts/Layout.astro";
 import data from '../../public/data/data.json';
 import CardProduct from '../components/products/cardProduct.tsx';
@@ -11,26 +13,27 @@ import CardProduct from '../components/products/cardProduct.tsx';
     }
 </style>
 <Layout title="Home">
-        <div class="top-wrap">
-            <!-- <Counter initial={5} />
-            <SayHi /> -->
+  <>
+    <Header/>
+    <main>
+        <h3>Product Lists</h3>
+        <div className="productList">
+          {data.products.map(product => 
+              <div class="prod">
+                <CardProduct 
+                  thumb_src = {product.thumb_src}
+                  thumb_alt = {product.thumb_alt}
+                  color = {product.color}
+                  colors = {product.colors}
+                  title = {product.title}
+                  description = {product.description}
+                  price = {product.price}
+                  position = "center"
+                />
+              </div>
+          )}        
         </div>
-        <main>
-            <h3>Product Lists</h3>
-            {data.products.map(product => 
-                <div>
-                  <CardProduct 
-                    thumb_src = {product.thumb_src}
-                    thumb_alt = {product.thumb_alt}
-                    color = {product.color}
-                    colors = {product.colors}
-                    title = {product.title}
-                    description = {product.description}
-                    price = {product.price}
-                    position = "center"
-                  />
-                </div>
-              )}        
-        </main> 
-        <div class="footer-wrap"></div>
+    </main> 
+    <Footer/>
+  </>
 </Layout>
