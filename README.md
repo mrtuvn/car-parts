@@ -1,1 +1,2 @@
-multi-purposes shopping build with astro tailwind react
+## SETUP
+check tokenize in vercel.json
