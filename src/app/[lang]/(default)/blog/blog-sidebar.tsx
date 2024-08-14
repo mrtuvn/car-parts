@@ -6,7 +6,7 @@ import CategoryDropdownSidebar from "@components/category/category-dropdown-side
 import BestSellerSidebarProductFeed from '@components/product/feeds/best-seller-sidebar-product-feed';
 
 import {FC} from "react";
-interface blogGridProps {
+type blogGridProps = {
     lang: string
 }
 export const BlogSidebar: FC<blogGridProps> = ({lang}) => {

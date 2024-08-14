@@ -16,7 +16,7 @@ import cn from 'classnames';
 import { ROUTES } from '@utils/routes';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface SignUpFormProps {
+type SignUpFormProps = {
   lang: string;
   isPopup?: boolean;
   className?: string;
@@ -73,7 +73,7 @@ export default function SignUpForm({
             <h4 className="text-xl font-semibold text-brand-dark sm:text-2xl sm:pt-3 ">
               {t('common:text-sign-up-for-free')}
             </h4>
-            
+
           </div>
           <form
             onSubmit={handleSubmit(onSubmit)}

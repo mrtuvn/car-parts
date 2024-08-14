@@ -23,7 +23,7 @@ const data = [
   }
 ];
 
-interface Props {
+type Props = {
   className?: string;
   lang?: string;
 }

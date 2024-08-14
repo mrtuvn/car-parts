@@ -13,7 +13,7 @@ type MODAL_VIEWS =
   | 'PRODUCT_VIEW'
   | 'CATEGORY_VIEW';
 
-interface State {
+type State = {
   view?: MODAL_VIEWS;
   data?: any;
   isOpen: boolean;

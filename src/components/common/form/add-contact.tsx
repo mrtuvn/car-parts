@@ -8,7 +8,7 @@ import {
 } from '@components/common/modal/modal.context';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface ContactFormValues {
+type ContactFormValues = {
   title: string;
   number: string;
   default: boolean;

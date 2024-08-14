@@ -7,7 +7,7 @@ import {ROUTES} from '@utils/routes';
 import {useBlogsQuery} from "@framework/blog/get-all-blogs";
 import useWindowSize from "@utils/use-window-size";
 
-interface Props {
+type Props = {
     lang: string;
     className?: string;
     headingPosition?: 'left' | 'center';

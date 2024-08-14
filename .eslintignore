@@ -4,3 +4,32 @@ public
 .husky
 next-env.d.ts
 yarn.lock
+
+# Ignore artifacts:
+build
+coverage
+
+node_modules
+
+# Ignore all HTML files:
+*.html
+
+.github
+
+.next
+
+.swc
+
+
+public/
+es/
+lib/
+dist/
+package.json
+src/assets/
+plop-templates/
+handlebars/
+website/
+build/
+src/components/*/**.tsx
+src/components/*/**.ts

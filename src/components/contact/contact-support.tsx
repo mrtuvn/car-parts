@@ -40,7 +40,7 @@ const data = [
   },
 ];
 
-interface Props {
+type Props = {
   lang: string;
   image?: HTMLImageElement;
 }

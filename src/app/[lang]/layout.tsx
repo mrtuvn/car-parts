@@ -6,7 +6,7 @@ import ManagedDrawer from '@components/common/drawer/managed-drawer';
 import { Metadata } from 'next';
 import ToasterProvider from 'src/app/provider/toaster-provider';
 import Providers from 'src/app/provider/provider';
-import { Rubik } from 'next/font/google';
+//import { Rubik } from 'next/font/google';
 // external
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -18,12 +18,12 @@ import './globals.css';
 import '@assets/css/rc-drawer.css';
 import '@assets/css/themes.scss';
 
-const rubik = Rubik({
-  weight: ['300','400', '500', '600', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-rubik',
-});
+// const rubik = Rubik({
+//   weight: ['300','400', '500', '600', '700'],
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-rubik',
+// });
 
 
 export const metadata: Metadata = {
@@ -46,7 +46,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang={lang} dir={dir(lang)}>
-      <body className={`${rubik.variable}`}>
+      <body>
         <Providers>
           <ManagedUIContext>
             {children}

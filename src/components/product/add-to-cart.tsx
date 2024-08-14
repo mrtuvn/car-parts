@@ -5,7 +5,7 @@ import PlusIcon from '@components/icons/plus-icon';
 import useWindowSize from '@utils/use-window-size';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface Props {
+type Props = {
   lang: string;
   data: any;
   variation?: any;

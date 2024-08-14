@@ -13,7 +13,7 @@ const data = {
   appImage: '/assets/images/delivery-man.png',
 };
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
 }

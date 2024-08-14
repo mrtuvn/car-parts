@@ -8,7 +8,7 @@ import { SwiperSlide } from '@components/ui/carousel/slider';
 import { ROUTES } from '@utils/routes';
 import { useBlogsQuery } from '@framework/blog/get-all-blogs';
 
-interface Props {
+type Props = {
   className?: string;
   lang: string;
   headingPosition?: 'left' | 'center';

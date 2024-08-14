@@ -4,25 +4,25 @@ import { CNFlag } from '@components/icons/language/CNFlag';
 import { USFlag } from '@components/icons/language/USFlag';
 import { DEFlag } from '@components/icons/language/DEFlag';
 import { ESFlag } from '@components/icons/language/ESFlag';
-import siteLogo from 'public/assets/images/logo.png';
+import siteLogo from 'public/assets/images/main.png';
 import siteLogoBlack from 'public/assets/images/logo-black.png';
 
 export const siteSettings = {
-  name: 'Razor',
+  name: 'TuAutoParts',
   description:
-    'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
+    'Sell automotive parts in Vietnam after market',
   author: {
     name: 'TuAuto, Inc.',
     websiteUrl: '#',
-    address: '',
+    address: '90B2 Mai Dong, Hoang Mai, Hanoi, Vietnam, 100000',
   },
   logo: {
     url: siteLogo,
     urlReverse: siteLogoBlack,
-    alt: 'Razor',
+    alt: 'TuAuto',
     href: '/en',
-    width: 195,
-    height: 26,
+    width: 200,
+    height: 100,
   },
   defaultLanguage: 'en',
   currencyCode: 'USD',

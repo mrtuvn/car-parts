@@ -7,7 +7,7 @@ import CategoryListCard from '@components/cards/category-list-card';
 import { ROUTES } from '@utils/routes';
 import { LIMITS } from '@framework/utils/limits';
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
 }
@@ -35,7 +35,7 @@ const HeroBannerWithCategory: React.FC<Props> = ({
           ))}
         </div>
       </div>
-     
+
     </div>
   );
 };

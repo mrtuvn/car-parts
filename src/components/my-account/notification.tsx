@@ -76,7 +76,7 @@ const AccountDetails: React.FC<{ lang: string }> = ({ lang }) => {
 
 export default AccountDetails;
 
-interface NotificationItemProps {
+type NotificationItemProps = {
   title: string;
   description: string;
   lang: string;

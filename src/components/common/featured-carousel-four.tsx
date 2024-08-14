@@ -68,7 +68,7 @@ const data = [
     },
 ];
 
-interface Props {
+type Props = {
     lang: string;
     className?: string;
     classNameCarousel?: string;

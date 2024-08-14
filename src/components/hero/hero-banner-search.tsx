@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import type { FC } from 'react';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface HeroSearchBoxProps {
+type HeroSearchBoxProps = {
   lang: string;
   style?: 'default' | 'slider' | 'medium' | 'antique';
   button?: {

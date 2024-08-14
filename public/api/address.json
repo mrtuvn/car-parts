@@ -4,9 +4,9 @@
         "title": "Home",
         "default": true,
         "address": {
-            "lat": 1.357334,
-            "lng": 103.821417,
-            "formatted_address" : "Acme Widgets 123 Widget Street Acmeville, AC 12345 United States of America"
+            "lat": 20.9896757,
+            "lng": 105.8614348,
+            "formatted_address" : "90B2 Mai Dong Hoang Mai, 100000 Ha Noi Vietnam"
         }
     },
     {
@@ -14,9 +14,9 @@
         "title": "Office",
         "default": false,
         "address": {
-            "lat": 51.522379,
-            "lng": -0.099130,
-            "formatted_address" : "Acme Widgets 890 Widget Street Acmeville, AC 213 United States of America."
+            "lat": 20.9896757,
+            "lng": 105.8614348,
+            "formatted_address" : "90B2 Mai Dong Hoang Mai, 100000 Ha Noi Vietnam"
         }
     }
 ]

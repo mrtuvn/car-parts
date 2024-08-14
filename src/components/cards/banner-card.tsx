@@ -5,7 +5,7 @@ import Image from 'next/image';
 import useWindowSize from '@utils/use-window-size';
 import cn from 'classnames';
 
-interface BannerProps {
+type BannerProps = {
     lang: string;
     banner: any;
     variant?: 'rounded' | 'default';
@@ -34,11 +34,11 @@ const BannerCard: React.FC<BannerProps> = ({
             <Link
                 href={`/${lang}${slug}`}
                 className={cn(
-                    'h-full w-full group flex justify-center relative overflow-hidden',
+                    'h-full w-full group flex justify-center relative',
                     classNameInner
                 )}
             >
-                <div className="relative inline-block overflow-hidden w-full box-sizing">
+                <div className="relative inline-block w-full box-sizing">
                     <div className="block w-full box-sizing">
                         <svg className="block max-w-full h-auto" xmlns="http://www.w3.org/2000/svg" width={selectedImage.width} height={selectedImage.height} version="1.1"/>
                     </div>
@@ -48,10 +48,10 @@ const BannerCard: React.FC<BannerProps> = ({
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className={cn('absolute top-0 left-0 right-0 bottom-0 max-w-full max-h-full min-w-full min-h-full object-cover', {
+                        className={cn('absolute top-0 left-0 right-0 bottom-0 max-w-full max-h-full min-w-full min-h-full object-scale-down aspect-auto', {
                             'rounded-md': variant === 'rounded',
                         })}
-                       
+
                     />
                 </div>
                 {effectActive && (

@@ -8,7 +8,7 @@ import { collectionPlaceholder } from '@assets/placeholders';
 import {BsClock} from "react-icons/bs";
 import {Blog} from "@framework/types";
 
-interface Props {
+type Props = {
   lang: string;
   imgWidth?: number ;
   imgHeight?: number ;

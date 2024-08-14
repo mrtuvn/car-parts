@@ -15,7 +15,7 @@ const Carousel = dynamic(() => import('@components/ui/carousel/carousel'), {
   ssr: false,
 });
 
-interface CategoriesProps {
+type CategoriesProps = {
   lang: string;
   className?: string;
 }

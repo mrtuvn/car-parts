@@ -1,13 +1,34 @@
+@layer reset, framework, tailwind, base, theme, utily;
+:root {
+  --min-size-read: 320px;
+  --font-family: "Mulish", sans-serif;
+}
 /* Google Font */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");*/
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer reset {
+  body {
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    min-width: var(--min-size-read, 320px);
+  }
+}
+
 /* Write your own custom base styles here */
 @layer base {
   /* default theme */
+
+  .logo {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+  }
 
   html {
     -webkit-tap-highlight-color: transparent;
@@ -15,7 +36,6 @@
   html,
   body {
     @apply antialiased bg-brand-light text-brand-muted font-body;
-    /*font-family: 'Rubik',Arial,Helvetica,sans-serif;*/
   }
   p {
     @apply mb-5;

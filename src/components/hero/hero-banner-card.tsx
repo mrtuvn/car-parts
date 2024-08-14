@@ -6,7 +6,7 @@ import useWindowSize from '@utils/use-window-size';
 import { useTranslation } from 'src/app/i18n/client';
 import HeroSearchBox from '@components/hero/hero-banner-search';
 
-interface BannerProps {
+type BannerProps = {
   lang: string;
   banner?: any;
   className?: string;

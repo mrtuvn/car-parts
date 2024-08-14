@@ -9,11 +9,11 @@ import cn from 'classnames';
 import Rate from '@components/ui/rate';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface ReviewFormProps {
+type ReviewFormProps = {
   className?: string;
   lang: string;
 }
-interface ReviewFormValues {
+type ReviewFormValues = {
   name: string;
   email: string;
   cookie: string;

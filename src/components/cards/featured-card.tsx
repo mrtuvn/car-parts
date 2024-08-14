@@ -3,13 +3,13 @@ import cn from 'classnames';
 import { useTranslation } from 'src/app/i18n/client';
 import Text from '@components/ui/text';
 
-interface ItemProps {
+type ItemProps = {
   icon: JSX.Element;
   title: string;
   description: string;
 }
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
   item: ItemProps;

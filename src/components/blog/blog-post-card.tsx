@@ -13,7 +13,7 @@ import LabelIcon from '@components/icons/label-icon';
 import TagLabel from '@components/ui/tag-label';
 import SocialShareThis from '@components/ui/share-this';
 
-interface BlogProps {
+type BlogProps = {
   blogData: any;
   className?: string;
   lang: string;

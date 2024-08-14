@@ -9,7 +9,7 @@ import Text from '@components/ui/text';
 import { collectionPlaceholder } from '@assets/placeholders';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface Props {
+type Props = {
   imgWidth?: number | string;
   imgHeight?: number | string;
   href: LinkProps['href'];

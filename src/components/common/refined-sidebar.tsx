@@ -6,7 +6,7 @@ import { useFlashSellProductsQuery } from '@framework/product/get-all-flash-sell
 import { LIMITS } from '@framework/utils/limits';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
 }

@@ -4,7 +4,7 @@ import { LinkProps } from 'next/link';
 import { useTranslation } from 'src/app/i18n/client';
 import cn from 'classnames';
 
-interface Props {
+type Props = {
   lang: string;
   imgWidth?: number | string;
   imgHeight?: number | string;

@@ -8,7 +8,7 @@ import {ROUTES} from "@utils/routes";
 import {getCountview} from "@utils/get-countview";
 import { BsArrowRight, BsClock } from 'react-icons/bs';
 
-interface BlogProps {
+type BlogProps = {
   blog: Blog;
   className?: string;
   lang: string;

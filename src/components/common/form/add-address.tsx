@@ -11,7 +11,7 @@ import Heading from '@components/ui/heading';
 import Map from '@components/ui/map';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface ContactFormValues {
+type ContactFormValues = {
   title: string;
   default: boolean;
   lat: number;

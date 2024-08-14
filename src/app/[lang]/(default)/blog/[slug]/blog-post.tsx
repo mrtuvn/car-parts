@@ -6,7 +6,7 @@ import {useBlogPostQuery} from '@framework/blog/get-blog-post';
 
 import BlogPostCard from "@components/blog/blog-post-card";
 
-interface blogGridProps {
+type blogGridProps = {
   className?: string;
   lang: string;
 }

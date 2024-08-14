@@ -8,7 +8,7 @@ import { ROUTES } from '@utils/routes';
 import { useTranslation } from 'src/app/i18n/client';
 import { useRouter } from 'next/navigation';
 
-interface CheckoutInputType {
+type CheckoutInputType = {
   firstName: string;
   lastName: string;
   phone: string;

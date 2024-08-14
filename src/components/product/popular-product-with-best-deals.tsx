@@ -10,7 +10,7 @@ import ProductFlashSaleCoral from '@components/product/product-cards/product-fla
 import { useTranslation } from 'react-i18next';
 import { Element } from 'react-scroll';
 
-interface ProductFeedProps {
+type ProductFeedProps = {
   lang: string;
   className?: string;
 }

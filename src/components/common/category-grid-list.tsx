@@ -6,7 +6,7 @@ import Scrollbar from '@components/ui/scrollbar';
 import cn from 'classnames';
 import { ROUTES } from '@utils/routes';
 
-interface CategoriesProps {
+type CategoriesProps = {
   lang: string;
   className?: string;
   limit?: number;

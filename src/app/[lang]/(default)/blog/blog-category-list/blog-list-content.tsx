@@ -11,7 +11,7 @@ import BlogCard from "@components/blog/blog-card";
 import {GrNext, GrPrevious} from "react-icons/gr";
 import Pagination from "@components/ui/pagination";
 
-interface blogGridProps {
+type blogGridProps = {
     dataBlog?: any;
     className?: string;
     lang: string

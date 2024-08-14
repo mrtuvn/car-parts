@@ -4,7 +4,7 @@ import Text from '@components/ui/text';
 import StarIcon from '@components/icons/star-icon';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface ReviewProps {
+type ReviewProps = {
   lang: string;
   item: any;
   className?: string;

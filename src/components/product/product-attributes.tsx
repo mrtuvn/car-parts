@@ -1,6 +1,6 @@
 import cn from 'classnames';
 
-interface Props {
+type Props = {
   className?: string;
   variations: any;
   attributes: any;

@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useTranslation } from 'src/app/i18n/client';
 import Text from '@components/ui/text';
 
-interface ContactFormValues {
+type ContactFormValues = {
   instructionNote: string;
   default: boolean;
 }

@@ -1,6 +1,6 @@
 import cn from 'classnames';
 
-interface CookieBarProps {
+type CookieBarProps = {
   className?: string;
   title: string;
   description?: string;

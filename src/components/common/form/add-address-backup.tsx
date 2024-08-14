@@ -4,7 +4,7 @@ import TextArea from '@components/ui/form/text-area';
 import { useForm } from 'react-hook-form';
 import { useModalState } from '@components/common/modal/modal.context';
 
-interface ContactFormValues {
+type ContactFormValues = {
   title: string;
   country: string;
   city: string;

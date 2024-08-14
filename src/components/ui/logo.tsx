@@ -24,14 +24,20 @@ const Logo: React.FC<Props> = ({
     >
       {variant === 'black' ? (
         <Image
+          className="logo"
           src={siteSettings.logo.urlReverse}
           alt={siteSettings.logo.alt}
+          width={siteSettings.logo.width}
+          height={siteSettings.logo.height}
           loading="eager"
         />
       ) : (
         <Image
+          className="logo"
           src={siteSettings.logo.url}
           alt={siteSettings.logo.alt}
+          width={siteSettings.logo.width}
+          height={siteSettings.logo.height}
           loading="eager"
         />
       )}

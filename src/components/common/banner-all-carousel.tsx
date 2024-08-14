@@ -30,7 +30,7 @@ const breakpoints = {
       },
   };
 
-interface BannerProps {
+type BannerProps = {
   lang: string;
   data: any;
   className?: string;

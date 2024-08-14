@@ -5,7 +5,7 @@ import Heading from '@components/ui/heading';
 import Text from '@components/ui/text';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface Props {
+type Props = {
   lang: string;
   sectionHeading?: string;
   sectionSubHeading?: string;

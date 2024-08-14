@@ -4,7 +4,7 @@ import { useCategoriesQuery } from '@framework/category/get-all-categories';
 import cn from 'classnames';
 import CategoryMenu from '@components/ui/category-menu';
 
-interface CategoryDropdownProps {
+type CategoryDropdownProps = {
   lang: string;
   className?: string;
   categoriesLimit?: number;

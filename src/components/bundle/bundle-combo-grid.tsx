@@ -8,7 +8,7 @@ import { SwiperSlide } from 'swiper/react';
 import useWindowSize from '@utils/use-window-size';
 import { ROUTES } from '@utils/routes';
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
   data: any;

@@ -3,7 +3,7 @@
 import { Attachment } from '@framework/types';
 import { useTranslation } from 'src/app/i18n/client';
 
-interface HeroSectionProps {
+type HeroSectionProps = {
   lang: string;
   backgroundThumbnail?: Attachment;
   heroDescription?: string;

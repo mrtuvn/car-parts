@@ -4,7 +4,7 @@ import HeroBannerCard from '@components/hero/hero-banner-card';
 import Carousel from '@components/ui/carousel/carousel';
 import { SwiperSlide } from '@components/ui/carousel/slider';
 
-interface Props {
+type Props = {
   lang: string;
   heroBanner?: any;
   className?: string;

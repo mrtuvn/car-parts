@@ -7,7 +7,7 @@ import { useTranslation } from 'src/app/i18n/client';
 import {productPlaceholder} from '@assets/placeholders';
 import {getCountview} from "@utils/get-countview";
 
-interface BlogProps {
+type BlogProps = {
     blog?: any;
     className?: string;
     lang: string;

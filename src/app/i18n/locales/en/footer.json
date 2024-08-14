@@ -35,7 +35,7 @@
     "link-email": "yourexample@email.com",
     "text-hotline": "Hotline Free 24/24:",
     "text-phone": "Phone:",
-    "link-phone": "(1800)-000-6890 ",
+    "link-phone": "0936536599",
     "text-subscribe":"Get the latest updates on new products and upcoming sales",
     "text-layout4-subscribe":"Sign up for all the news about our latest arrivals and get an exclusive early\naccess shopping. Join 60.000+ Subscribers and get a new discount coupon on every Saturday.",
     "text-btnsubscribe":"Subscribe",
@@ -45,7 +45,7 @@
     "payment-jcb": "JCB",
     "payment-skrill": "Skrill",
     "end": "end",
-     "email-required": "You must need to provide your email address",
-     "placeholder-email-subscribe": "Your email address",
-     "email-error": "Please provide valid email address"
+    "email-required": "You must need to provide your email address",
+    "placeholder-email-subscribe": "Your email address",
+    "email-error": "Please provide valid email address"
 }

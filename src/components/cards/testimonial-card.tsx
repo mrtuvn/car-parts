@@ -7,7 +7,7 @@ import { useTranslation } from 'src/app/i18n/client';
 import { collectionPlaceholder } from '@assets/placeholders';
 import QuoteIcon from "@components/icons/quote-alt-icon";
 
-interface Props {
+type Props = {
   lang: string;
   imgWidth?: number | string;
   imgHeight?: number | string;

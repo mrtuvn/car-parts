@@ -5,7 +5,7 @@ import { Category } from '@framework/types';
 import cn from 'classnames';
 import { useTranslation } from 'src/app/i18n/client';
 import { ROUTES } from '@utils/routes';
-interface Props {
+type Props = {
   lang: string;
   category: Category;
   href: LinkProps['href'];

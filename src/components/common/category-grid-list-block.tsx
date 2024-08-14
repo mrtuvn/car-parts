@@ -11,7 +11,7 @@ import useWindowSize from '@utils/use-window-size';
 import cn from 'classnames';
 import { ROUTES } from '@utils/routes';
 
-interface CategoriesProps {
+type CategoriesProps = {
   lang: string;
   className?: string;
   variant?: 'antique';

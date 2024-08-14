@@ -8,7 +8,7 @@ import {GrNext, GrPrevious} from "react-icons/gr";
 import Pagination from "@components/ui/pagination";
 import {useState} from "react";
 
-interface blogGridProps {
+type blogGridProps = {
     dataBlog?: any;
     className?: string;
     lang: string

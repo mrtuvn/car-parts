@@ -1,7 +1,7 @@
 import { useOrderStatusQuery } from '@framework/order/order-status';
 import ProgressBox from './progress-box';
 
-interface Props {
+type Props = {
   status: number;
 }
 

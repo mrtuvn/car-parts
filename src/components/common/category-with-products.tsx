@@ -74,7 +74,7 @@ function ProductWeek({ lang }: { lang: string }) {
   );
 }
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
 }

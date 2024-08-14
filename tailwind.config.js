@@ -107,7 +107,7 @@ module.exports = {
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
       fontFamily: {
-        body: ['var(--font-rubik)'],
+        body: ['var(--font-family)'],
       },
       fontWeight: {
         semibold: '500',

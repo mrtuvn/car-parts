@@ -15,7 +15,7 @@ import CloseButton from '@components/ui/close-button';
 import { FaFacebook, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import cn from 'classnames';
 
-interface LoginFormProps {
+type LoginFormProps = {
   lang: string;
   isPopup?: boolean;
   className?: string;

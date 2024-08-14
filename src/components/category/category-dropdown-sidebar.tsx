@@ -8,7 +8,7 @@ import { useCategoriesQuery } from '@framework/category/get-all-categories';
 import cn from 'classnames';
 import SectionHeader from '@components/common/section-header';
 
-interface CategorySidebarProps {
+type CategorySidebarProps = {
   lang: string;
   className?: string;
 }

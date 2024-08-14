@@ -5,7 +5,7 @@ import { useTranslation } from 'src/app/i18n/client';
 import cn from 'classnames';
 import { categoryPlaceholder } from '@assets/placeholders';
 
-interface Props {
+type Props = {
   lang: string;
   item: any;
   href: LinkProps['href'];

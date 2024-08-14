@@ -10,7 +10,7 @@ const Carousel = dynamic(() => import('@components/ui/carousel/carousel'), {
   ssr: false,
 });
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
   data: any;

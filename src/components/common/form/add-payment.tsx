@@ -3,7 +3,7 @@ import Button from '@components/ui/button';
 import { useForm } from 'react-hook-form';
 import { useModalState } from '@components/common/modal/modal.context';
 
-interface ContactFormValues {
+type ContactFormValues = {
   title: string;
   name: string;
   country: string;

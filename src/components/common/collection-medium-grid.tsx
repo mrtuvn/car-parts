@@ -31,7 +31,7 @@ const data = [
   },
 ];
 
-interface Props {
+type Props = {
   lang: string;
   className?: string;
   headingPosition?: 'left' | 'center';
