@@ -15,7 +15,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@components/*": ["src/components/*"],
+      "@/components/*": ["src/components/*",],
+      "@components/*": ["src/components/*",],
       "@containers/*": ["src/containers/*"],
       "@contexts/*": ["src/contexts/*"],
       "@framework/*": ["src/framework/basic-rest/*"],
@@ -24,7 +25,9 @@
       "@styles/*": ["src/styles/*"],
       "@utils/*": ["src/utils/*"],
       "@assets/*": ["src/assets/*"],
-      "@data/*": ["src/data/*"]
+      "@data/*": ["src/data/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/types/*": ["src/types/*"]
     },
     "incremental": true,
     "plugins": [

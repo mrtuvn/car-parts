@@ -7,7 +7,7 @@ import BannerAllCarousel from '@components/common/banner-all-carousel';
 import CategoryGridListBlock from '@components/common/category-grid-list-block';
 import BestSellerProductFeed from '@components/product/feeds/best-seller-product-feed';
 import { bundleDataTwo as bundle } from '@framework/static/bundle';
-
+import { siteSettings } from '@settings/site-settings';
 import SupperCategoryElectronicFeed from '@components/product/feeds/suppercategory-electronic-feed';
 import SupperCategoryClothFeed from '@components/product/feeds/suppercategory-cloth-feed';
 import {
@@ -18,9 +18,8 @@ import {
 } from '@framework/static/banner';
 
 export const metadata: Metadata = {
-  title: 'Razor | Electronics Store Store React Template',
-  description:
-    'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
+  title: siteSettings.name,
+  description: siteSettings.description,
 };
 
 export default async function Page({

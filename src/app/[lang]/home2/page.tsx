@@ -21,9 +21,11 @@ import CategoryGridListBlock from "@components/common/category-grid-list-block";
 import ListingTabsClothFeed from "@components/product/feeds/listingtabs-cloth-feed";
 import ListingTabsElectronicFeed from "@components/product/feeds/listingtabs-electronic-feed";
 import ProductWithBestDeals from "@components/product/product-with-best-deals";
+import { siteSettings } from '@settings/site-settings';
 
 export const metadata: Metadata = {
-  title: 'Home2',
+  title: siteSettings.name,
+  description: siteSettings.description
 };
 
 

@@ -16,10 +16,11 @@ import CategoryGridListBlock from "@components/common/category-grid-list-block";
 import BannerAllCarousel from "@components/common/banner-all-carousel";
 import BannerGridTwo from "@components/common/banner-grid-two";
 import ListingTabsClothFeed from "@components/product/feeds/listingtabs-cloth-feed";
-
+import { siteSettings } from '@settings/site-settings';
 
 export const metadata: Metadata = {
-  title: 'Home3',
+  title: siteSettings.name,
+  description: siteSettings.description
 };
 
 export default async function Page({

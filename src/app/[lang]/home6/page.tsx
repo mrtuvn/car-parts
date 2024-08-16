@@ -14,9 +14,11 @@ import SuppercategoryPopular from "@components/product/feeds/suppercategory-popu
 import ListingTabsElectronicFeed from "@components/product/feeds/listingtabs-electronic-v2";
 import ListingTabsClothFeed from "@components/product/feeds/listingtabs-cloth-v2";
 import BestSellerProductFeed from "@components/product/feeds/best-seller-top-product";
+import { siteSettings } from '@settings/site-settings';
 
 export const metadata: Metadata = {
-  title: 'Home 6',
+  title: siteSettings.name,
+  description: siteSettings.description
 };
 
 

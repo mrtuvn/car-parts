@@ -15,9 +15,11 @@ import ListingTabsElectronicFeed from "@components/product/feeds/listingtabs-ele
 import ListingTabsPhonesFeed from "@components/product/feeds/listingtabs-phones-v2";
 import ListingTabsComputerFeed from "@components/product/feeds/listingtabs-computer-v2";
 import ListingTabsClothFeed from "@components/product/feeds/listingtabs-cloth-v2";
+import { siteSettings } from '@settings/site-settings';
 
 export const metadata: Metadata = {
-  title: 'Home 7',
+  title: siteSettings.name,
+  description: siteSettings.description
 };
 
 

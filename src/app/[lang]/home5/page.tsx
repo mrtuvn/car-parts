@@ -13,9 +13,11 @@ import LatestblogCarousel from "@components/common/latestblog-four";
 import SuppercategoryPopular from "@components/product/feeds/suppercategory-popular";
 import ListingTabsElectronicFeed from "@components/product/feeds/listingtabs-electronic-v2";
 import ListingTabsClothFeed from "@components/product/feeds/listingtabs-cloth-v2";
+import { siteSettings } from '@settings/site-settings';
 
 export const metadata: Metadata = {
-  title: 'Home 5',
+  title: siteSettings.name,
+  description: siteSettings.description
 };
 
 

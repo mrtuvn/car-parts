@@ -8,6 +8,8 @@ import siteLogo from 'public/assets/images/main.png';
 import siteLogoBlack from 'public/assets/images/logo-black.png';
 
 export const siteSettings = {
+  backendRoutePath: 'dashboard',
+  backendImagePath: '/backend',/* in public folder */
   name: 'TuAutoParts',
   description:
     'Sell automotive parts in Vietnam after market',
