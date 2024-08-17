@@ -25,11 +25,10 @@ import '@assets/css/themes.scss';
 //   variable: '--font-rubik',
 // });
 
-
 export const metadata: Metadata = {
   title: {
-    template: 'Razor | %s',
-    default: 'Razor',
+    template: 'AutoParts | %s',
+    default: 'Automotive',
   },
 };
 

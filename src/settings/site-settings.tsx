@@ -4,15 +4,15 @@ import { CNFlag } from '@components/icons/language/CNFlag';
 import { USFlag } from '@components/icons/language/USFlag';
 import { DEFlag } from '@components/icons/language/DEFlag';
 import { ESFlag } from '@components/icons/language/ESFlag';
+import { VNFlag } from '@components/icons/language/VNFlag';
 import siteLogo from 'public/assets/images/main.png';
 import siteLogoBlack from 'public/assets/images/logo-black.png';
 
 export const siteSettings = {
   backendRoutePath: 'dashboard',
-  backendImagePath: '/backend',/* in public folder */
+  backendImagePath: '/backend' /* in public folder */,
   name: 'TuAutoParts',
-  description:
-    'Sell automotive parts in Vietnam after market',
+  description: 'Sell automotive parts in Vietnam after market',
   author: {
     name: 'TuAuto, Inc.',
     websiteUrl: '#',
@@ -26,8 +26,8 @@ export const siteSettings = {
     width: 200,
     height: 100,
   },
-  defaultLanguage: 'en',
-  currencyCode: 'USD',
+  defaultLanguage: 'vn',
+  currencyCode: 'VND',
   site_header: {
     topmenu: [
       {
@@ -47,64 +47,64 @@ export const siteSettings = {
       },
     ],
     menu: [
-      {
-        id: 1,
-        path: '/',
-        label: 'menu-demos',
-        subMenu: [
-          {
-            id: 1,
-            path: '/',
-            label: 'menu-home1',
-          },
-          {
-            id: 2,
-            path: '/home2',
-            label: 'menu-home2',
-          },
-          {
-            id: 3,
-            path: '/home3',
-            label: 'menu-home3',
-          },
-          {
-            id: 4,
-            path: '/home4',
-            label: 'menu-home4',
-          },
-          {
-            id: 5,
-            path: '/home5',
-            label: 'menu-home5',
-          },
+      // {
+      //   id: 1,
+      //   path: '/',
+      //   label: 'menu-demos',
+      //   subMenu: [
+      //     {
+      //       id: 1,
+      //       path: '/',
+      //       label: 'menu-home1',
+      //     },
+      //     {
+      //       id: 2,
+      //       path: '/home2',
+      //       label: 'menu-home2',
+      //     },
+      //     {
+      //       id: 3,
+      //       path: '/home3',
+      //       label: 'menu-home3',
+      //     },
+      //     {
+      //       id: 4,
+      //       path: '/home4',
+      //       label: 'menu-home4',
+      //     },
+      //     {
+      //       id: 5,
+      //       path: '/home5',
+      //       label: 'menu-home5',
+      //     },
 
-          {
-            id: 6,
-            path: '/home6',
-            label: 'menu-home6',
-          },
-          {
-            id: 7,
-            path: '/home7',
-            label: 'menu-home7',
-          },
-            {
-                id: 8,
-                path: 'https://next13-razor-furniture.vercel.app/en',
-                label: 'menu-furniture-home1',
-            },
-            {
-                id: 9,
-                path: 'https://next13-razor-furniture.vercel.app/en/home2',
-                label: 'menu-furniture-home2',
-            },
-            {
-                id: 10,
-                path: 'https://next13-razor-furniture.vercel.app/en/home3',
-                label: 'menu-furniture-home3',
-            },
-        ],
-      },
+      //     {
+      //       id: 6,
+      //       path: '/home6',
+      //       label: 'menu-home6',
+      //     },
+      //     {
+      //       id: 7,
+      //       path: '/home7',
+      //       label: 'menu-home7',
+      //     },
+      //     {
+      //       id: 8,
+      //       path: 'https://next13-razor-furniture.vercel.app/en',
+      //       label: 'menu-furniture-home1',
+      //     },
+      //     {
+      //       id: 9,
+      //       path: 'https://next13-razor-furniture.vercel.app/en/home2',
+      //       label: 'menu-furniture-home2',
+      //     },
+      //     {
+      //       id: 10,
+      //       path: 'https://next13-razor-furniture.vercel.app/en/home3',
+      //       label: 'menu-furniture-home3',
+      //     },
+      //   ],
+      // },
       {
         id: 2,
         path: '/search',
@@ -598,11 +598,17 @@ export const siteSettings = {
       },
     ],
     languageMenu: [
+      // {
+      //   id: 'ar',
+      //   name: 'عربى',
+      //   value: 'ar',
+      //   icon: <SAFlag />,
+      // },
       {
-        id: 'ar',
-        name: 'عربى',
-        value: 'ar',
-        icon: <SAFlag />,
+        id: 'vn',
+        name: 'Vietnam',
+        value: 'vn',
+        icon: <VNFlag />,
       },
       {
         id: 'en',
