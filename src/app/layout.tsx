@@ -1,6 +1,6 @@
 //import { Rubik } from 'next/font/google';
 import { Metadata } from 'next';
-
+import { Providers } from '@/redux/provider';
 import './[lang]/globals.css';
 
 // const rubik = Rubik({
@@ -32,7 +32,7 @@ export default function RootLayout({
         // to prevent any warning that is caused by third party extensions like Grammarly
         suppressHydrationWarning={true}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

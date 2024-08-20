@@ -13,7 +13,7 @@ import { useIsMounted } from '@utils/use-is-mounted';
 function ClientRenderedHighLightedBar({ lang }: { lang: string }) {
     const { t } = useTranslation(lang, 'common');
     const [highlightedBar, setHighlightedBar] = useSessionStorage(
-        'razor-highlightedBar',
+        'shop-highlightedBar',
         'false'
     );
     return (
@@ -44,7 +44,7 @@ export default function DefaultLayout({
 
     return (
         <div className="page-type-home2 flex flex-col min-h-screen">
-            {isMounted && <ClientRenderedHighLightedBar lang={lang} />}
+            {/* {isMounted && <ClientRenderedHighLightedBar lang={lang} />} */}
             {/* End of highlighted bar  */}
 
             <Header lang={lang} />

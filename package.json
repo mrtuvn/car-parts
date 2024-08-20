@@ -1,6 +1,6 @@
 {
-  "name": "razor-v2.2",
-  "version": "2.2.0",
+  "name": "carparts-v2.2",
+  "version": "2.2.1",
   "private": true,
   "scripts": {
     "clean": "rimraf .next dist build out node_modules",
@@ -61,7 +61,9 @@
     "apexcharts": "^3.45.2",
     "flatpickr": "^4.6.13",
     "jsvectormap": "^1.6.0",
-    "react-apexcharts": "^1.4.1"
+    "react-apexcharts": "^1.4.1",
+    "@reduxjs/toolkit": "^1.9.3",
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.3",

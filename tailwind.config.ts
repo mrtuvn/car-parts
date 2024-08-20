@@ -44,8 +44,8 @@ const config: Config = {
         danger: '#D34053',
         warning: '#FFA70B',
         skin: {
-          DEFAULT: '#ff7e00',
-          primary: '#ff7e00',
+          DEFAULT: 'var(--brand-color)',
+          primary: 'var(--brand-color)',
           inverted: '#ffffff',
           base: '#333333',
           fill: '#ffffff',
@@ -55,7 +55,7 @@ const config: Config = {
           six: '#222b34',
         },
         brand: {
-          DEFAULT: '#ff7e00',
+          DEFAULT: 'var(--brand-color)',
           dark: '#333333',
           light: '#ffffff',
           muted: '#595959',
@@ -382,7 +382,7 @@ const config: Config = {
         line3: 'line 7s infinite linear',
       },
       fontFamily: {
-        satoshi: ["Satoshi", "sans-serif"],
+        satoshi: ['Satoshi', 'sans-serif'],
         body: ['var(--font-family)'],
       },
       fontWeight: {

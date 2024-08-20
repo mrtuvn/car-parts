@@ -11,10 +11,10 @@ import Providers from 'src/app/provider/provider';
 import 'react-toastify/dist/ReactToastify.css';
 
 // base css file
+import './globals.css';
 import '@assets/css/scrollbar.css';
 import '@assets/css/swiper-carousel.css';
 import '@assets/css/custom-plugins.css';
-import './globals.css';
 import '@assets/css/rc-drawer.css';
 import '@assets/css/themes.scss';
 

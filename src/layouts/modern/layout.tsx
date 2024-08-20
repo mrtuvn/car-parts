@@ -44,7 +44,7 @@ export default function ModernLayout({
 
   return (
     <div className="flex flex-col min-h-screen">
-      {isMounted && <ClientRenderedHighLightedBar lang={lang} />}
+      {/* {isMounted && <ClientRenderedHighLightedBar lang={lang} />} */}
       {/* End of highlighted bar  */}
 
       <Header lang={lang} />

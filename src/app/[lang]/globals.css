@@ -1,7 +1,8 @@
-@layer reset, framework, tailwind, base, theme, utily;
+@layer reset, framework, tailwind, base, theme, author;
 :root {
   --min-size-read: 320px;
   --font-family: "Mulish", sans-serif;
+  --brand-color: #ff7e00;
 }
 /* Google Font */
 /*@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");*/

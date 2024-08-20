@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // experimental: {
-  //   // Required:
-  //   appDir: true,
-  // },
+
   ...(process.env.NODE_ENV === 'production' && {
     typescript: {
       ignoreBuildErrors: true,
@@ -25,3 +22,5 @@ module.exports = {
     ];
   },
 };
+
+export default nextConfig;

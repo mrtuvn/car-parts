@@ -6,6 +6,10 @@ path here from src/framework/basic-rest/utils/api-endpoints.ts
 
 banner logo brand from src/framework/basic-rest/static/banner.ts
 
+## API endpoints
+
+http://localhost:[port]/api/hello
+
 
 ## Sample code
 

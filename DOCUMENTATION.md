@@ -1,12 +1,12 @@
-# razor Documentation
+# Documentation
 
 ## Introduction
 
-Fastest E-commerce template built with `React`, `NextJS`, `TypeScript`, `React-Query` and `Tailwind CSS`. It's very easy to use, we used `react-query` for data fetching . You can setup your api endpoint's very easily and your frontend team will love using it.
+E-commerce template built with `React`, `NextJS`, `TypeScript`, `React-Query` and `Tailwind CSS`. It's very easy to use, we used `react-query` for data fetching . You can setup your api endpoint's very easily and your frontend team will love using it.
 
 ## Requirements
 
-- node(12.13.0 or later)
+- node(18.18.2 or later)
 - yarn(version 1)
 - editor: Visual Studio Code(recommended)
 
@@ -24,7 +24,7 @@ Tech specification for this template is given below
 
 ## Getting Started & Installation
 
-For getting started with the template you have to follow the below procedure. First navigate to the `razor` directory.
+For getting started with the template you have to follow the below procedure. First navigate to the root directory.
 
 ### Step 1 : Configure your env file
 
@@ -36,15 +36,13 @@ Within the project directory you'll find a `.env.local.template` file just renam
 
 ** NOTE : ** For Stripe Payment Integration, go to your `.env.local` file and put your stripe public api key there like `NEXT_PUBLIC_STRIPE_PUBLIC_KEY= put your stripe public key`
 <br/>
-<br/>
-<br/>
 
 ### Step 2 : Running the project
 
 Run below command for getting started with this template.
 
 ```bash
-# on razor directory
+# on root directory
 $ yarn
 $ yarn dev # which will running the template for development
 ```
@@ -130,7 +128,7 @@ const { data, isLoading, error } = useProductQuery(slug as string);
 
 If you want to host the template in vercel.com then follow the below procedure
 
-- Navigate to `razor`
+- Navigate to root
 - Put your api endpoint at `vercel.json` file.
 - Now run below command
 

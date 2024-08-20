@@ -13,7 +13,7 @@ import { useTranslation } from 'src/app/i18n/client';
 function ClientRenderedHightLightedBar({ lang }: { lang: string }) {
   const { t } = useTranslation(lang, 'common');
   const [highlightedBar, setHighlightedBar] = useSessionStorage(
-    'razor-highlightedBar',
+    'shop-highlightedBar',
     'false'
   );
   return (
@@ -53,7 +53,7 @@ export default function StandardLayout({
 
   return (
     <div className="page-type-home4 flex flex-col min-h-screen ">
-      {isMounted && <ClientRenderedHightLightedBar lang={lang} />}
+      {/* {isMounted && <ClientRenderedHightLightedBar lang={lang} />} */}
 
       {/* End of highlighted bar  */}
 

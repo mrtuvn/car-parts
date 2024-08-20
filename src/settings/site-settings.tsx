@@ -90,17 +90,17 @@ export const siteSettings = {
       //     },
       //     {
       //       id: 8,
-      //       path: 'https://next13-razor-furniture.vercel.app/en',
+      //       path: 'https://car-parts-zeta.vercel.app/en',
       //       label: 'menu-furniture-home1',
       //     },
       //     {
       //       id: 9,
-      //       path: 'https://next13-razor-furniture.vercel.app/en/home2',
+      //       path: 'https://car-parts-zeta.vercel.app/en/home2',
       //       label: 'menu-furniture-home2',
       //     },
       //     {
       //       id: 10,
-      //       path: 'https://next13-razor-furniture.vercel.app/en/home3',
+      //       path: 'https://car-parts-zeta.vercel.app/en/home3',
       //       label: 'menu-furniture-home3',
       //     },
       //   ],
@@ -115,7 +115,7 @@ export const siteSettings = {
         mega_bannerImg: '/assets/images/mega/banner-menu.jpg',
         mega_bannerUrl: '/search',
         mega_contentBottom:
-          '<strong>30% Off</strong> the shipping of your first order with the code: <strong>RAZOR-SALE30</strong>',
+          '<strong>30% Off</strong> the shipping of your first order with the code: <strong>SALE30</strong>',
         subMenu: [
           {
             id: 1,
@@ -314,7 +314,7 @@ export const siteSettings = {
         mega_bannerImg: '/assets/images/mega/banner-menu.jpg',
         mega_bannerUrl: '/search',
         mega_contentBottom:
-          '<strong>30% Off</strong> the shipping of your first order with the code: <strong>RAZOR-SALE30</strong>',
+          '<strong>30% Off</strong> the shipping of your first order with the code: <strong>SALE30</strong>',
         subMenu: [
           {
             id: 1,
