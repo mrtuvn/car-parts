@@ -6,7 +6,7 @@ import HeroSliderBlock from '@components/hero/hero-slider-block';
 import BannerAllCarousel from '@components/common/banner-all-carousel';
 import CategoryGridListBlock from '@components/common/category-grid-list-block';
 import BestSellerProductFeed from '@components/product/feeds/best-seller-product-feed';
-import { bundleDataTwo as bundle } from '@framework/static/bundle';
+//import { bundleDataTwo as bundle } from '@framework/static/bundle';
 import { siteSettings } from '@settings/site-settings';
 import SupperCategoryElectronicFeed from '@components/product/feeds/suppercategory-electronic-feed';
 import SupperCategoryClothFeed from '@components/product/feeds/suppercategory-cloth-feed';
@@ -16,6 +16,7 @@ import {
   homeOnesGridHero2 as bannerTwo2,
   homeOneHeroBanner as heroBanner,
 } from '@framework/static/banner';
+import BannerHome from '@/components/common/banner-home';
 
 export const metadata: Metadata = {
   title: siteSettings.name,
@@ -54,6 +55,7 @@ export default async function Page({
         />
         <SupperCategoryClothFeed lang={lang}/>
         <CategoryGridListBlock lang={lang} className="mb-6 lg:mb-8" />
+        <BannerHome lang={lang} pathAsset='/assets/images/banner/quy-trinh.jpg' width={1118} height={700} bannerTopTitle='proceed'/>
         <BannerAllCarousel
           lang={lang}
           data={bannerBrand}

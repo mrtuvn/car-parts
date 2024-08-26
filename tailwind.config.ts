@@ -75,7 +75,7 @@ const config: Config = {
           secondary: '#f8f9fb',
           thumbnail: '#f3f6fa',
           'dropdown-hover': '#f6f9fc',
-          one: '#232F3F',
+          one: 'var(--brand-fill-color, #232F3F)',
           two: '#f2f2f2',
           three: '#e8ebf0',
           four: '#F3F5F9',
@@ -100,10 +100,10 @@ const config: Config = {
           '21/9': '21 / 9',
         },
         backgroundImage: {
-          video: "url('../public/backend/video/video.png')",
+          video: "url('/backend/video/video.png')",
         },
         content: {
-          'icon-copy': 'url("../public/backend/icon/icon-copy-alt.svg")',
+          'icon-copy': 'url("/backend/icon/icon-copy-alt.svg")',
         },
         transitionProperty: { width: 'width', stroke: 'stroke' },
         gray: {

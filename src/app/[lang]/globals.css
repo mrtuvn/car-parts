@@ -2,7 +2,9 @@
 :root {
   --min-size-read: 320px;
   --font-family: "Mulish", sans-serif;
-  --brand-color: #ff7e00;
+  --brand-color: #fe0000;
+  --brand-black-color: #000;
+  --brand-fill-color: var(--brand-black-color);
 }
 /* Google Font */
 /*@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");*/
@@ -13,12 +15,19 @@
 
 @layer reset {
   body {
+    font-size: 1.4rem;
     font-synthesis: none;
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     direction: ltr;
     min-width: var(--min-size-read, 320px);
+  }
+}
+
+@layer author {
+  body {
+    min-height: 100svh;
   }
 }
 

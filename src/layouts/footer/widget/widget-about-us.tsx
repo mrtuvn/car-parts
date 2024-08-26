@@ -36,7 +36,7 @@ const WidgetAbout: React.FC<AboutProps> = ({ lang, social, className }) => {
         <div className={`bg-iconPhone bg-no-repeat  min-h-[60px] mb-5 ${dir === 'rtl' ? 'pr-16 xl:pr-20 bg-right': 'ps-16 xl:ps-20'}`}>
           <p className="text-white mb-0">{t('text-hotline')}</p>
           <p className="text-brand text-lg duration-200 hover:text-white">
-            {t('link-phone')}
+            <Link className="hover:text-brand" href={`tel:${t('link-phone')}`}>{t('link-phone')}</Link>
           </p>
         </div>
         <div className="mb-3">{t('text-address')} {t('link-address')}</div>
