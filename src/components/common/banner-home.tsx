@@ -9,7 +9,7 @@ type BannerProps = {
   className?: string;
   width: number;
   height: number;
-  bannerTopTitle?: string;
+  bannerTopTitle: string;
 }
 
 const BannerHome: React.FC<BannerProps> = ({
@@ -23,8 +23,8 @@ const BannerHome: React.FC<BannerProps> = ({
   const {t} = useTranslation(lang, 'common');
   const title = bannerTopTitle;
   return (
-    <div className={`heightFull ${className}`}>
-      <h2 className="text-title-lg text-center font-medium text-fill-base sm:mb-4 mb-8">{t(`${title}`)}</h2>
+    <div className={`bannerHomeGlobal heightFull ${className}`}>
+      <h2 className="text-title-lg text-center font-medium text-fill-base sm:mb-4 mb-12">{ t(title) }</h2>
       <Image
         src={pathAsset}
         width={width}

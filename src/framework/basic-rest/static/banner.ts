@@ -1,31 +1,31 @@
 export const homeOneHeroBanner = [
   {
     id: 1,
-    title: 'banner-meat-needs-title',
-    description: 'banner-healthy-vegetable-description',
+    title: 'S90',
+    description: 'automotive best sedan with scandinavian design styles',
     btnText: 'text-explore-more',
     btnUrl: '/search',
     image: {
       mobile: {
-        url: '/assets/images/hero/home1/slider_1.jpg',
+        url: '/assets/images/hero/s90-fuel-hero-21x9.webp',
       },
       desktop: {
-        url: '/assets/images/hero/home1/slider_1.jpg',
+        url: '/assets/images/hero/s90-fuel-hero-21x9.webp',
       },
     },
   },
   {
     id: 2,
-    title: 'banner-thousand-grocery-title',
-    description: 'banner-thousand-grocery-title-description',
+    title: 'Automotive XC60',
+    description: 'automotive safest brand from Sweden',
     btnText: 'text-explore-more',
     btnUrl: '/search',
     image: {
       mobile: {
-        url: '/assets/images/hero/home1/slider_2.jpg',
+        url: '/assets/images/hero/xc60-fuel-hero-16x9.webp',
       },
       desktop: {
-        url: '/assets/images/hero/home1/slider_2.jpg',
+        url: '/assets/images/hero/xc60-fuel-hero-16x9.webp',
       },
     },
   },
@@ -224,6 +224,23 @@ export const bannerBrand = [
       },
       desktop: {
         url: '/assets/images/brands/honda.png',
+        width: 190,
+        height: 100,
+      },
+    },
+  },
+  {
+    id: 8,
+    title: 'Volvo',
+    slug: '/search',
+    image: {
+      mobile: {
+        url: '/assets/images/brands/volvo.png',
+        width: 190,
+        height: 100,
+      },
+      desktop: {
+        url: '/assets/images/brands/volvo.png',
         width: 190,
         height: 100,
       },

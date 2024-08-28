@@ -1,9 +1,9 @@
-import { ILFlag } from '@components/icons/language/ILFlag';
-import { SAFlag } from '@components/icons/language/SAFlag';
-import { CNFlag } from '@components/icons/language/CNFlag';
+//import { ILFlag } from '@components/icons/language/ILFlag';
+//import { SAFlag } from '@components/icons/language/SAFlag';
+//import { CNFlag } from '@components/icons/language/CNFlag';
 import { USFlag } from '@components/icons/language/USFlag';
-import { DEFlag } from '@components/icons/language/DEFlag';
-import { ESFlag } from '@components/icons/language/ESFlag';
+//import { DEFlag } from '@components/icons/language/DEFlag';
+//import { ESFlag } from '@components/icons/language/ESFlag';
 import { VNFlag } from '@components/icons/language/VNFlag';
 import siteLogo from 'public/assets/images/main.png';
 import siteLogoBlack from 'public/assets/images/logo-black.png';
@@ -22,7 +22,7 @@ export const siteSettings = {
     url: siteLogo,
     urlReverse: siteLogoBlack,
     alt: 'TuAuto',
-    href: '/en',
+    href: '/',
     width: 200,
     height: 100,
   },
@@ -108,7 +108,26 @@ export const siteSettings = {
       {
         id: 2,
         path: '/search',
-        label: 'menu-categories',
+        label: 'Nội Thất Ô Tô',
+        type: 'mega',
+        mega_categoryCol: 5,
+        mega_bannerMode: 'none',
+        mega_bannerImg: '/assets/images/mega/banner-menu.jpg',
+        mega_bannerUrl: '/search',
+        mega_contentBottom:
+          '<strong>30% Off</strong> the shipping of your first order with the code: <strong>SALE30</strong>',
+        subMenu: [
+          {
+            id: 1,
+            path: '/search',
+            label: 'Camera hành trình'
+          }
+        ]
+      },
+      {
+        id: 2,
+        path: '/search',
+        label: 'Ngoại Thất Ô Tô',
         type: 'mega',
         mega_categoryCol: 5,
         mega_bannerMode: 'none',
@@ -304,248 +323,248 @@ export const siteSettings = {
           },
         ],
       },
-      {
-        id: 3,
-        path: '/search',
-        label: 'menu-dietary',
-        type: 'mega',
-        mega_categoryCol: 5,
-        mega_bannerMode: 'right',
-        mega_bannerImg: '/assets/images/mega/banner-menu.jpg',
-        mega_bannerUrl: '/search',
-        mega_contentBottom:
-          '<strong>30% Off</strong> the shipping of your first order with the code: <strong>SALE30</strong>',
-        subMenu: [
-          {
-            id: 1,
-            path: '/search',
-            label: 'menu-vegetarian',
-            subMenu: [
-              {
-                id: 1,
-                path: '/search',
-                label: 'menu-home-audio',
-              },
-              {
-                id: 2,
-                path: '/search',
-                label: 'menu-helicopters',
-              },
-              {
-                id: 3,
-                path: '/search',
-                label: 'menu-toys',
-              },
-              {
-                id: 4,
-                path: '/search',
-                label: 'menu-outdoor',
-              },
-              {
-                id: 5,
-                path: '/search',
-                label: 'menu-organic',
-              },
-            ],
-          },
-          {
-            id: 2,
-            path: '/search',
-            label: 'menu-automotive',
-            subMenu: [
-              {
-                id: 1,
-                path: '/search',
-                label: 'menu-automotive',
-              },
-              {
-                id: 2,
-                path: '/search',
-                label: 'menu-autocar',
-              },
-              {
-                id: 3,
-                path: '/search',
-                label: 'menu-morecar',
-              },
-              {
-                id: 4,
-                path: '/search',
-                label: 'menu-autosecurity',
-              },
-              {
-                id: 5,
-                path: '/search',
-                label: 'menu-battereries',
-              },
-            ],
-          },
-          {
-            id: 3,
-            path: '/search',
-            label: 'menu-mediterranean',
-            subMenu: [
-              {
-                id: 1,
-                path: '/search',
-                label: 'menu-vegetarian',
-              },
-              {
-                id: 2,
-                path: '/search',
-                label: 'menu-kakogenic',
-              },
-              {
-                id: 3,
-                path: '/search',
-                label: 'menu-mediterranean',
-              },
-              {
-                id: 4,
-                path: '/search',
-                label: 'menu-organic',
-              },
-              {
-                id: 5,
-                path: '/search',
-                label: 'menu-organic',
-              },
-            ],
-          },
-          {
-            id: 4,
-            path: '/search',
-            label: 'menu-organic',
-            subMenu: [
-              {
-                id: 1,
-                path: '/search',
-                label: 'menu-battereries',
-              },
-              {
-                id: 2,
-                path: '/search',
-                label: 'menu-beadphones',
-              },
-              {
-                id: 3,
-                path: '/search',
-                label: 'menu-accessories',
-              },
-              {
-                id: 4,
-                path: '/search',
-                label: 'menu-jewelry',
-              },
-              {
-                id: 5,
-                path: '/search',
-                label: 'menu-wedding',
-              },
-            ],
-          },
-          {
-            id: 5,
-            path: '/search',
-            label: 'menu-publications',
-            subMenu: [
-              {
-                id: 1,
-                path: '/search',
-                label: 'menu-menwatch',
-              },
-              {
-                id: 2,
-                path: '/search',
-                label: 'menu-womanwatch',
-              },
-              {
-                id: 3,
-                path: '/search',
-                label: 'menu-gift',
-              },
-              {
-                id: 4,
-                path: '/search',
-                label: 'menu-giftman',
-              },
-              {
-                id: 5,
-                path: '/search',
-                label: 'menu-giftwoman',
-              },
-            ],
-          },
-        ],
-      },
-      {
-        id: 4,
-        path: '/shops/',
-        label: 'menu-shops',
-      },
-      {
-        id: 5,
-        path: '/',
-        label: 'menu-pages',
-        subMenu: [
-          {
-            id: 1,
-            path: '/',
-            label: 'menu-users',
-            subMenu: [
-              {
-                id: 1,
-                path: '/my-account/account-settings',
-                label: 'menu-my-account',
-              },
-              {
-                id: 2,
-                path: '/signin',
-                label: 'menu-sign-in',
-              },
-              {
-                id: 3,
-                path: '/signup',
-                label: 'menu-sign-up',
-              },
-            ],
-          },
-          {
-            id: 2,
-            path: '/faq',
-            label: 'menu-faq',
-          },
-          {
-            id: 3,
-            path: '/contact-us',
-            label: 'menu-contact-us',
-          },
-          {
-            id: 4,
-            path: '/privacy',
-            label: 'menu-privacy-policy',
-          },
-          {
-            id: 5,
-            path: '/terms',
-            label: 'menu-terms-condition',
-          },
-          {
-            id: 6,
-            path: '/checkout',
-            label: 'menu-checkout',
-          },
-          {
-            id: 7,
-            path: '/404',
-            label: 'menu-404',
-          },
-        ],
-      },
+      // {
+      //   id: 3,
+      //   path: '/search',
+      //   label: 'menu-dietary',
+      //   type: 'mega',
+      //   mega_categoryCol: 5,
+      //   mega_bannerMode: 'right',
+      //   mega_bannerImg: '/assets/images/mega/banner-menu.jpg',
+      //   mega_bannerUrl: '/search',
+      //   mega_contentBottom:
+      //     '<strong>30% Off</strong> the shipping of your first order with the code: <strong>SALE30</strong>',
+      //   subMenu: [
+      //     {
+      //       id: 1,
+      //       path: '/search',
+      //       label: 'menu-vegetarian',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/search',
+      //           label: 'menu-home-audio',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/search',
+      //           label: 'menu-helicopters',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/search',
+      //           label: 'menu-toys',
+      //         },
+      //         {
+      //           id: 4,
+      //           path: '/search',
+      //           label: 'menu-outdoor',
+      //         },
+      //         {
+      //           id: 5,
+      //           path: '/search',
+      //           label: 'menu-organic',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       id: 2,
+      //       path: '/search',
+      //       label: 'menu-automotive',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/search',
+      //           label: 'menu-automotive',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/search',
+      //           label: 'menu-autocar',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/search',
+      //           label: 'menu-morecar',
+      //         },
+      //         {
+      //           id: 4,
+      //           path: '/search',
+      //           label: 'menu-autosecurity',
+      //         },
+      //         {
+      //           id: 5,
+      //           path: '/search',
+      //           label: 'menu-battereries',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       id: 3,
+      //       path: '/search',
+      //       label: 'menu-mediterranean',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/search',
+      //           label: 'menu-vegetarian',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/search',
+      //           label: 'menu-kakogenic',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/search',
+      //           label: 'menu-mediterranean',
+      //         },
+      //         {
+      //           id: 4,
+      //           path: '/search',
+      //           label: 'menu-organic',
+      //         },
+      //         {
+      //           id: 5,
+      //           path: '/search',
+      //           label: 'menu-organic',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       id: 4,
+      //       path: '/search',
+      //       label: 'menu-organic',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/search',
+      //           label: 'menu-battereries',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/search',
+      //           label: 'menu-beadphones',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/search',
+      //           label: 'menu-accessories',
+      //         },
+      //         {
+      //           id: 4,
+      //           path: '/search',
+      //           label: 'menu-jewelry',
+      //         },
+      //         {
+      //           id: 5,
+      //           path: '/search',
+      //           label: 'menu-wedding',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       id: 5,
+      //       path: '/search',
+      //       label: 'menu-publications',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/search',
+      //           label: 'menu-menwatch',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/search',
+      //           label: 'menu-womanwatch',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/search',
+      //           label: 'menu-gift',
+      //         },
+      //         {
+      //           id: 4,
+      //           path: '/search',
+      //           label: 'menu-giftman',
+      //         },
+      //         {
+      //           id: 5,
+      //           path: '/search',
+      //           label: 'menu-giftwoman',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: 4,
+      //   path: '/shops/',
+      //   label: 'menu-shops',
+      // },
+      // {
+      //   id: 5,
+      //   path: '/',
+      //   label: 'menu-pages',
+      //   subMenu: [
+      //     {
+      //       id: 1,
+      //       path: '/',
+      //       label: 'menu-users',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/my-account/account-settings',
+      //           label: 'menu-my-account',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/signin',
+      //           label: 'menu-sign-in',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/signup',
+      //           label: 'menu-sign-up',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       id: 2,
+      //       path: '/faq',
+      //       label: 'menu-faq',
+      //     },
+      //     {
+      //       id: 3,
+      //       path: '/contact-us',
+      //       label: 'menu-contact-us',
+      //     },
+      //     {
+      //       id: 4,
+      //       path: '/privacy',
+      //       label: 'menu-privacy-policy',
+      //     },
+      //     {
+      //       id: 5,
+      //       path: '/terms',
+      //       label: 'menu-terms-condition',
+      //     },
+      //     {
+      //       id: 6,
+      //       path: '/checkout',
+      //       label: 'menu-checkout',
+      //     },
+      //     {
+      //       id: 7,
+      //       path: '/404',
+      //       label: 'menu-404',
+      //     },
+      //   ],
+      // },
       {
         id: 6,
         path: '/blog/blog-category-grid',
-        label: 'menu-blog',
+        label: 'Tin Tức',
         subMenu: [
           {
             id: 1,
@@ -594,7 +613,7 @@ export const siteSettings = {
       {
         id: 7,
         path: '/contact-us',
-        label: 'menu-contact-us',
+        label: 'Liên Hệ',
       },
     ],
     languageMenu: [

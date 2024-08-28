@@ -10,7 +10,7 @@ import UserIcon from '@components/icons/user-icon';
 import MenuIcon from '@components/icons/menu-icon';
 import SearchIcon from '@components/icons/search-icon';
 import HeaderMenu from '@layouts/header/header-menu';
-import HeaderMenutop from '@layouts/header/header-menutop';
+//import HeaderMenutop from '@layouts/header/header-menutop';
 import LanguageSwitcher from '@components/ui/language-switcher';
 import {useModalAction} from '@components/common/modal/modal.context';
 import cn from 'classnames';
@@ -38,19 +38,19 @@ function Header({lang}: { lang: string }) {
     const siteHeaderRef = useRef() as DivElementRef;
     const [categoryMenu, setCategoryMenu] = useState(Boolean(false));
     useActiveScroll(siteHeaderRef);
-    
+
     function handleLogin() {
         openModal('LOGIN_VIEW');
     }
-    
+
     function handleMobileMenu() {
         return openSidebar();
     }
-    
+
     function handleCategoryMenu() {
         setCategoryMenu(!categoryMenu);
     }
-    
+
     return (
       <>
         <header
@@ -74,11 +74,11 @@ function Header({lang}: { lang: string }) {
                     {t('text-free-shipping')}
                   </text>
                   <div className="flex flex-shrink-0 smx-auto max-w-[1920px]pace-s-5">
-                    <HeaderMenutop
+                    {/* <HeaderMenutop
                       data={site_header.topmenu}
                       className="flex transition-all duration-200 ease-in-out"
                       lang={lang}
-                    />
+                    /> */}
                     <LanguageSwitcher lang={lang} />
                   </div>
                 </div>

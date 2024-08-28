@@ -431,7 +431,7 @@ input:checked + .slider:before {
   position: absolute;
   left: 2px;
   width: 3px;
-  background: #ff7e00;
+  background: var(--brand-color);
   @apply h-6 top-3 2xl:top-2.5;
 }
 .registration > div {

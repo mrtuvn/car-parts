@@ -8,7 +8,7 @@
 }
 .block-title:before{
     content: "";
-    background-color: #ff7e00;
+    background-color: var(--brand-color);
     width: 50px;
     height: 2px;
     position: absolute;
