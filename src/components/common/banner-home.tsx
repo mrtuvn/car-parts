@@ -6,7 +6,7 @@ import { useTranslation } from 'src/app/i18n/client';
 type BannerProps = {
   lang: string;
   pathAsset: string;
-  className?: string;
+  className: string;
   width: number;
   height: number;
   bannerTopTitle: string;
@@ -24,6 +24,7 @@ const BannerHome: React.FC<BannerProps> = ({
   const title = bannerTopTitle;
   return (
     <div className={`bannerHomeGlobal heightFull ${className}`}>
+      <p>{title}</p>
       <h2 className="text-title-lg text-center font-medium text-fill-base sm:mb-4 mb-12">{ t(title) }</h2>
       <Image
         src={pathAsset}

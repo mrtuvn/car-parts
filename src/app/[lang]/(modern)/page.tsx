@@ -8,8 +8,8 @@ import CategoryGridListBlock from '@components/common/category-grid-list-block';
 import BestSellerProductFeed from '@components/product/feeds/best-seller-product-feed';
 //import { bundleDataTwo as bundle } from '@framework/static/bundle';
 import { siteSettings } from '@settings/site-settings';
-import SupperCategoryElectronicFeed from '@components/product/feeds/suppercategory-electronic-feed';
-import SupperCategoryClothFeed from '@components/product/feeds/suppercategory-cloth-feed';
+//import SupperCategoryElectronicFeed from '@components/product/feeds/suppercategory-electronic-feed';
+//import SupperCategoryClothFeed from '@components/product/feeds/suppercategory-cloth-feed';
 import {
   bannerBrand,
   homeOnesGridHero as bannerTwo,
@@ -40,21 +40,21 @@ export default async function Page({
         />
         <FeatureCarousel lang={lang} />
         <BestSellerProductFeed lang={lang} />
-        <BannerGridTwo
+        {/* <BannerGridTwo
           lang={lang}
           data={bannerTwo}
           className="mb-8 lg:mb-12"
           girdClassName="xl:gap-5 "
-        />
-        <SupperCategoryElectronicFeed lang={lang} />
-        <BannerGridTwo
+        /> */}
+        {/* <SupperCategoryElectronicFeed lang={lang} /> */}
+        {/* <BannerGridTwo
           lang={lang}
           data={bannerTwo2}
           className="mb-8 lg:mb-12"
           girdClassName="xl:gap-5 2xl:grid-cols-[minmax(1138px,_1fr)_1fr] "
-        />
-        <SupperCategoryClothFeed lang={lang}/>
-        <CategoryGridListBlock lang={lang} className="mb-6 lg:mb-8" />
+        /> */}
+        {/* <SupperCategoryClothFeed lang={lang}/> */}
+        {/* <CategoryGridListBlock lang={lang} className="mb-6 lg:mb-8" /> */}
         <BannerHome lang={lang} pathAsset='/assets/images/banner/quy-trinh.jpg' width={1118} height={700} bannerTopTitle='proceed'/>
         <BannerAllCarousel
           lang={lang}
