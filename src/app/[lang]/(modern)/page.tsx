@@ -55,7 +55,7 @@ export default async function Page({
         /> */}
         {/* <SupperCategoryClothFeed lang={lang}/> */}
         {/* <CategoryGridListBlock lang={lang} className="mb-6 lg:mb-8" /> */}
-        <BannerHome lang={lang} pathAsset='/assets/images/banner/quy-trinh.jpg' width={1118} height={700} bannerTopTitle='proceed'/>
+        <BannerHome lang={lang} pathAsset='/assets/images/banner/quy-trinh.jpg' width={1118} height={700} bannerTopTitle='procedu'/>
         <BannerAllCarousel
           lang={lang}
           data={bannerBrand}

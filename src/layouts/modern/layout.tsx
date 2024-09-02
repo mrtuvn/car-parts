@@ -1,7 +1,7 @@
 'use client';
 
 import { useSessionStorage } from 'react-use';
-import Image from '@components/ui/image';
+//import Image from '@components/ui/image';
 import HighlightedBar from '@components/common/highlighted-bar';
 import Countdown from '@components/common/countdown';
 import MobileNavigation from '@layouts/mobile-navigation/mobile-navigation';

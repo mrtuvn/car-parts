@@ -1,14 +1,14 @@
 import ManagedModal from '@components/common/modal/managed-modal';
 import { ManagedUIContext } from '@contexts/ui.context';
 import { dir } from 'i18next';
-import { languages } from '../i18n/settings';
+import { languages } from 'src/app/i18n/settings';
 import ManagedDrawer from '@components/common/drawer/managed-drawer';
 import { Metadata } from 'next';
 import ToasterProvider from 'src/app/provider/toaster-provider';
 import Providers from 'src/app/provider/provider';
 //import { Rubik } from 'next/font/google';
 // external
-import 'react-toastify/dist/ReactToastify.css';
+//import 'react-toastify/dist/ReactToastify.css';
 
 // base css file
 import './globals.css';
