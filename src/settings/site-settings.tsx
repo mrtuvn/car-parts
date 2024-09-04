@@ -7,7 +7,9 @@ import { USFlag } from '@components/icons/language/USFlag';
 import { VNFlag } from '@components/icons/language/VNFlag';
 import siteLogo from 'public/assets/images/main.png';
 import siteLogoBlack from 'public/assets/images/logo-black.png';
+interface SiteSettings {
 
+}
 export const siteSettings = {
   backendRoutePath: 'dashboard',
   backendImagePath: '/backend' /* in public folder */,

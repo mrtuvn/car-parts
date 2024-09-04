@@ -1,10 +1,10 @@
 import ManagedModal from '@components/common/modal/managed-modal';
 import { ManagedUIContext } from '@contexts/ui.context';
 import { dir } from 'i18next';
-import { languages } from 'src/app/i18n/settings';
+import { languages } from '@/app/i18n/settings';
 import ManagedDrawer from '@components/common/drawer/managed-drawer';
 import { Metadata } from 'next';
-import ToasterProvider from 'src/app/provider/toaster-provider';
+//import ToasterProvider from 'src/app/provider/toaster-provider';
 import Providers from 'src/app/provider/provider';
 //import { Rubik } from 'next/font/google';
 // external
@@ -28,7 +28,7 @@ import '@assets/css/themes.scss';
 export const metadata: Metadata = {
   title: {
     template: 'AutoParts | %s',
-    default: 'Automotive',
+    default: 'Automotive Parts',
   },
 };
 
@@ -51,7 +51,7 @@ export default function RootLayout({
             {children}
             <ManagedModal lang={lang} />
             <ManagedDrawer lang={lang} />
-            <ToasterProvider />
+            {/* <ToasterProvider /> */}
           </ManagedUIContext>
         </Providers>
       </body>

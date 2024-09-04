@@ -24,7 +24,7 @@ const BannerHome: React.FC<BannerProps> = ({
   const title = bannerTopTitle;
   return (
     <div className={`bannerHomeGlobal heightFull ${className}`}>
-      <h2 className="text-title-lg text-center font-medium text-fill-base sm:mb-4 mb-12">{ t(title) }</h2>
+      <h2 className="text-title-lg text-center font-medium text-fill-base sm:mb-4 mb-12 uppercase md:text-2xl">{ t(title) }</h2>
       <Image
         src={pathAsset}
         width={width}
