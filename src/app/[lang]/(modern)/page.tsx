@@ -1,6 +1,6 @@
 import Container from '@components/ui/container';
 import { Metadata } from 'next';
-import FeatureCarousel from '@components/common/featured-carousel';
+//import FeatureCarousel from '@components/common/featured-carousel';
 import BannerGridTwo from '@components/common/banner-grid-two';
 import HeroSliderBlock from '@components/hero/hero-slider-block';
 import BannerAllCarousel from '@components/common/banner-all-carousel';
@@ -38,7 +38,7 @@ export default async function Page({
           className={`mb-7 mt-6`}
           lang={lang}
         />
-        <FeatureCarousel lang={lang} />
+        {/* <FeatureCarousel lang={lang} /> */}
         <BestSellerProductFeed lang={lang} />
         {/* <BannerGridTwo
           lang={lang}
