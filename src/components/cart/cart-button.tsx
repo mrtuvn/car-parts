@@ -40,7 +40,7 @@ const CartButton: React.FC<CartButtonProps> = ({
       <div className="relative flex items-center">
         <div className='flex items-center relative cart-button'>
             <CartIcon className={cn(iconClassName)} />
-            <span className="cart-counter-badge  min-w-[20px] min-h-[20px] p-0.5 rounded-[20px] flex items-center justify-center bg-brand text-brand-light absolute -top-1 ltr:right-5 rtl:left-5 text-10px">
+            <span className="cart-counter-badge  min-w-[20px] min-h-[20px] p-0.5 rounded-[20px] flex items-center justify-center bg-brand text-brand-light absolute top-[-2px] ltr:right-5 rtl:left-5 text-10px">
           {totalItems}
         </span>
         </div>
@@ -49,9 +49,9 @@ const CartButton: React.FC<CartButtonProps> = ({
           {t('text-cart')}
         </span>
       )}
-      
+
       </div>
-     
+
     </button>
   );
 };

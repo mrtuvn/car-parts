@@ -1,9 +1,16 @@
 import type { Config } from 'tailwindcss';
-import defaultTheme from 'tailwindcss/defaultTheme';
+import defaultTheme, { fontFamily } from 'tailwindcss/defaultTheme';
 
 const config: Config = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   darkMode: 'class',
+  container: {
+    center: true,
+    padding: '1rem',
+    screens: {
+      '2xl': '1400px',
+    },
+  },
   theme: {
     extend: {
       colors: {
@@ -384,6 +391,7 @@ const config: Config = {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         body: ['var(--font-family)'],
+        sans: ['var(--font-sans)', ...fontFamily.sans],
       },
       fontWeight: {
         semibold: '500',
@@ -443,6 +451,6 @@ const config: Config = {
     },
   },
   plugins: [require('@tailwindcss/forms'), require('tailwindcss-rtl')],
-};
+} satisfies Config;
 
 export default config;

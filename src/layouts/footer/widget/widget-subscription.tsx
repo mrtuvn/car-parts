@@ -18,7 +18,7 @@ const defaultValues = {
 };
 
 function SubscriptionForm({ lang }: { lang: string }) {
-  const { t } = useTranslation(lang, 'forms');
+  const { t } = useTranslation(lang, 'footer');
   const {
     register,
     handleSubmit,
@@ -52,7 +52,7 @@ function SubscriptionForm({ lang }: { lang: string }) {
         <EmailIcon className="w-4 2xl:w-[18px] h-4 2xl:h-[18px]" />
       </span>
       <Input
-        placeholder={t('forms:placeholder-email-subscribe')}
+        placeholder={t('placeholder-email-subscribe')}
         type="email"
         id="subscription-email"
         variant="solid"
